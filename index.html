@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hexlet News</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container">
+  <header class="header">
+    <div class="header__container">
+      <div class="logo">
+        <div class="logo__icon"></div>
+        <div class="logo__text">News</div>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Поиск по названию...">
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="content">
+      <h1 class="main__title">Самые свежие новости</h1>
+      <section class="trending">
+        <h2 class="trending__title">Что в тренде на этой неделе</h2>
+        <div class="trending__content">
+          <div class="trending__image-wrapper">
+            <img class="trending__image">
+            <div class="trending__text-overlay">
+              <p class="trending__date">22 Апр 2025</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus risus, finibus ornare vestibulum et, feugiat quis dui. Vivamus sit amet dolor et magna facilisis rhoncus.</p>
+              <a href="#" class="trending__readmore">Читать еще</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <nav class="nav">
+        <div class="nav__container">
+          <a href="#">Свежее</a>
+          <a href="#">Горячие новости</a>
+          <a href="#">...</a>
+          <a href="#">...</a>
+        </div>
+      </nav>
+
+      <section class="news">
+        <article class="news__item">
+          <img src="img/image.png" alt="News1">
+          <div class="news__content">
+            <p class="news__date">22 Апр 2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <a href="#" class="news__readmore">Читать еще</a>
+          </div>
+        </article>
+        <article class="news__item">
+          <img src="img/image2.png" alt="News2">
+          <div class="news__content">
+            <p class="news__date">22 Апр 2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <a href="#" class="news__readmore">Читать еще</a>
+          </div>
+        </article>
+        <article class="news__item">
+          <img src="img/image3.png" alt="News3">
+          <div class="news__content">
+            <p class="news__date">22 Апр 2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <a href="#" class="news__readmore">Читать еще</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="subscribe">
+        <h2 class="subscribe-title">Рассылка на Почту</h2>
+        <form class="subscribe-form">
+          <input class="subscribe-input" type="email" placeholder="Введите адрес вашего email">
+          <button class="subscribe-button" type="submit">Подписаться</button>
+        </form>
+      </section>
+    </aside>
+
+  </main>
+</body>
+</html>
